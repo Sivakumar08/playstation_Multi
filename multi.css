@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Poppins:ital@1&family=Source+Serif+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Poppins:ital@1&family=Source+Serif+Pro:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+     margin: 0;
+     
+     scroll-behavior: smooth;
+     
+}
+header {
+    width: 100%;
+    height: 8vh;
+    overflow: hidden;
+    position: fixed;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    z-index: 10;
+   
+    font-family: 'Arima', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    background-color: rgb(255, 255, 255);
+}
+.nav{
+    display: flex;
+    align-items: center;
+    
+}
+.nav img{
+    width: 70px;
+    height: 70px;
+}
+.sect1{
+    padding-top: 100px;
+}
+ .list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.list1{
+    
+    padding-left: 700px;
+    right: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+   
+}
+.list1 button{
+    width: 70px;
+   background-color: black;
+   color:white;
+   border-radius: 20px;
+}
+
+
+
+
+
+.carousel-inner{
+    width: 100%;
+    height: 60vh;
+    top:-4vh;
+}
+.carousel-inner img{
+    opacity: 0.7;
+    
+}
+
+
+.center {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: white;
+  }
+  .center button{
+    padding: 10px 15px;
+    border-radius: 30px;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: solid 2px black;
+    outline: solid 2px transparent;
+  }
+  .center button:hover{
+    outline: solid 2px white;
+    cursor: pointer;
+  }
+  
+  .center .sub{
+    font-family: 'Arima', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Serif Pro', serif;
+    font-size: 50px;
+  }
+  .sub{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+  }
+  .imagess{
+    padding-top: 25px;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+   
+  }
+  .imagess img{
+    width: 230px;
+    height: 130px;
+    border-radius: 15px;
+    opacity: 0.75;
+    box-shadow: 1px 1px 15px #656565;
+  }
+
+  .imagess img:hover{
+   
+    opacity: 1;
+   margin-top: 1px;
+    transition: 0.2s;
+    
+  }
+ 
+.container{
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    height: 75vh;
+}
+.subcon{
+    padding-top: 100px;
+}
+.subcon button{
+    border-radius: 25px;
+    background-color: rgb(51, 105, 232);
+    color: white;
+    border: 1px;
+    width: 120px;
+    height: 40px;
+    padding: 10px 15px;
+  
+    outline: solid 2px transparent;
+}
+.subcon button:hover{
+    border: 3px;
+    width: 125px;
+    height: 43px;
+    outline: solid 2px white;
+  cursor: pointer;
+}
+.container img{
+    width: 70vw;
+    margin-top: 20px;
+    padding-left: 250px;
+    height: 60vh;
+}
+
+.images-2{
+    padding-top: 25px;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+  .images-2 img{
+    width: 230px;
+    height: 130px;
+    border-radius: 15px;
+    opacity: 0.75;
+    box-shadow: 1px 1px 15px #656565;
+  }
+  .images-2 img:hover{
+    opacity: 1;
+    border: solid 1px rgb(224, 222, 222);
+  outline: solid 2px rgb(50, 89, 218);
+  }
+ 
+
+  .midd{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 95vh;
+    margin: 0px auto;
+    padding: 0 30px;
+    gap: 60px;
+      color: white;
+      display: flex;
+      background: linear-gradient( to bottom, rgb(119, 53, 195) 20%, rgb(26, 26, 61) 100%);
+    
+  }
+  .gameimg{
+    padding-top: 20px;
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+  }
+  .midd .head{
+    padding: 60px;
+  }
+  .midd .head button{
+    padding: 10px 15px;
+  border-radius: 30px;
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: solid 2px black;
+  outline: solid 2px transparent;
+  }
+
+  .midd .head button:hover{
+    outline: solid 2px white;
+  cursor: pointer;
+  }
+
+  .midd .head p{
+    color: rgb(194, 193, 193);
+    margin-bottom: 40px;
+    line-height: 2rem;
+    font-size: 1.25rem;
+    color: rgb(198, 188, 188);
+  }
+  .gameimg .items{
+    width: 350px;
+    height: 300px;
+   
+  overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .gameimg .items img{
+    width: 350px;
+    height: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+   
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  .gameimg .items img:hover{
+    opacity: 1;
+   margin-top: -10px;
+    transition: 0.2s;
+    
+  }
+  .gameimg .items p{
+    font-size: xx-large;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2rem;
+    color: white;
+    
+  }
+   .gameimg .items .sizing{
+    
+    width: 350px;
+    height: 300px;
+  } 
+
+.eld{
+
+  position: relative;
+}
+.eld .text button{
+  padding: 10px 15px;
+border-radius: 30px;
+background: white;
+font-size: 16px;
+font-weight: bold;
+border: solid 2px black;
+outline: solid 2px transparent;
+}
+.eld .img{
+  width: 100%;
+  height: 70vh;
+}
+.eld .img img{
+  width: 100%;
+}
+.eld .text{
+  position: absolute;
+  bottom: 50px;
+ left: 30px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 900px;
+}
+.eld .text .main{
+  margin-top: 20px;
+  font-size: 40px;
+}
+.eld .text p{
+  font-size: 17px;
+  font-weight: 350;
+}
+
+.eld .text button:hover{
+  outline: solid 2px white;
+cursor: pointer;
+}
+
+.newreleases{
+  color: white;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+
+}
+.newreleases .grid{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+ 
+}
+.newreleases .head2{
+  padding-top: 50px;
+  padding-left: 170px;
+  font-weight: 600;
+  font-size: 18px;
+
+}
+.newreleases .sub2 p{
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 170px;
+
+}
+.newreleases .grid .items{
+  width: 300px;
+  height: 300px;
+ 
+ 
+}
+.newreleases .grid .items p{
+  padding-left: 10px;
+  font-size: 16px;
+ 
+}
+.newreleases .grid .items img{
+  width: 200px;
+  height: 220px;
+  opacity: 0.9;
+  border-radius: 10px;
+  padding: 10px;
+}
+.newreleases .grid .items .img img:hover{
+  opacity: 1;
+  border-radius: 20px;
+  width: 205px;
+  height: 225px;
+
+}
+
+.footer_background {
+  background: rgb(22, 62, 173);
+  padding: 60px 30px;
+  height: 75vh;
+}
+
+.footer_container {
+  display: flex;
+  color: white;
+  max-width: 1900px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.globe_logo {
+  height: 30px;
+}
+
+.footer_item1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.footer_lists {
+  display: flex;
+}
+
+.countryRegions {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
+.footer_logo {
+  height: 100px;
+  align-self: flex-start;
+  /* align-self: flex-start; */
+}
+
+.footer_Sonylogo {
+  height: 60px;
+  /* width: 60px; */
+  align-self: flex-start;
+}
+
+.esrbLogo {
+  height: 60px;
+}
+
+.esrb_section {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_lists li {
+  list-style: none;
+  cursor: pointer;
+  margin: 20px 50px;
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social{
+  display: Flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: Center;
+  gap: 80px;
+  margin-top: 70px;
+  margin-bottom: 135px;
+  
+}
+.social p{
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: rgb(52, 52, 52);
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.social .img img{
+  height: 125px;
+  margin: 0 10px;
+}
+
+.types{
+  height: 100vh;
+  background-color: white;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: Center;
+}
+.types .conta{
+  display: flex;
+ 
+}
+.types .text p{
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 350;
+}
+.types .text .subb{
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.types .conta .items img{
+  height: 245px;
+  margin: 0 10px;
+  gap: 20px;
+}
+.types .conta {
+  gap: 30px;
+}
+.types .conta .items .main{
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: 350;
+}
+.types .conta .items p{
+  padding-left: 40px;
+  font-size: 18px;
+  font-weight: 250;
+  position: relative;
+}
+.types .conta .items .but{
+  padding-left: 40px;
+}
+.types .conta .items button{
+  padding: 10px 15px;
+  
+border-radius: 30px;
+background: rgb(23, 66, 209);
+font-size: 16px;
+font-weight: bold;
+color: white;
+border: solid 2px rgb(255, 253, 253);
+
+}
+.types .conta .items button:hover{
+  outline: solid 2px rgb(23, 66, 209);
+  cursor: pointer;
+}
+
+.plus{
+  padding: 50px;
+  background-color: #aeb3b7;
+  background-image: linear-gradient(to right, #aeb3b7 60% , rgb(208, 208, 130));
+
+  opacity: 0.9;
+  height: 75vh;
+  display: flex;
+ gap: 8rem;
+  justify-content: center;
+  align-items: Center;
+}
+
+.plus .img img{
+  height: 400px;
+}
+
+.plus .text{
+  font-size: larger;
+  padding-bottom: 30px;
+}
+.plus .text .headtext img{
+  height: 70px;
+}
+.plus .text p{
+  font-size: 18px;
+ margin-bottom: 50px;
+}
+.plus .text button{
+padding: 10px 15px;
+border-radius: 30px;
+background: rgb(23, 66, 209);
+font-size: 16px;
+font-weight: bold;
+color: white;
+border: solid 0px rgb(255, 253, 253);
+
+}
+.plus .text button:hover{
+  border: solid 1px rgb(224, 222, 222);
+  outline: solid 2px rgb(23, 66, 209);
+  cursor: pointer;
+}
+/* .dropdown{
+    padding-top: 10px;
+    height: 15vh;
+    display: none;
+    
+}
+.dropdown .drop{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    list-style-type: none;
+    position: absolute;
+    justify-content: space-between;
+}
+
+.content:hover .dropdown{
+    display: block;
+}
+
+.dropdown :hover {background-color: #f1f1f1;} */
+
+
